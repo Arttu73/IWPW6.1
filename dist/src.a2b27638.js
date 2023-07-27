@@ -3505,6 +3505,7 @@ var buildChart = /*#__PURE__*/function () {
     return _ref2.apply(this, arguments);
   };
 }();
+buildChart();
 },{"./styles.css":"src/styles.css","frappe-charts/dist/frappe-charts.min.esm":"node_modules/frappe-charts/dist/frappe-charts.min.esm.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
@@ -3530,7 +3531,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "36775" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "44937" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];

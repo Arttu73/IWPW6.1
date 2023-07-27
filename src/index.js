@@ -85,3 +85,5 @@ const buildChart = async () => {
   });
 
 };
+
+buildChart();
